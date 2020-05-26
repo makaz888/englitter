@@ -1,0 +1,28 @@
+//User reducer types
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_USER = 'SET_USER';
+export const LOADING_USER = 'LOADING_USER';
+export const MARK_NOTIFICATIONS_READ = 'MARK_NOTIFICATIONS_READ';
+export const EMAIL_SENT = 'EMAIL_SENT';
+//UI reducer types
+export const SET_ERRORS = 'SET_ERRORS';
+export const LOADING_UI = 'LOADING_UI';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const LOADING_DATA = 'LOADING_DATA';
+export const STOP_LOADING_UI = 'STOP_LOADING_UI';
+export const LOADING_MORE_DATA = 'LOADING_MORE_DATA';
+export const STOP_LOADING_MORE_DATA = 'STOP_LOADING_MORE_DATA';
+//Data reducer types
+export const SET_SCREAMS = 'SET_SCREAMS';
+export const SET_PROFILE = 'SET_PROFILE';
+export const SET_NEXT_SCREAMS = 'SET_NEXT_SCREAMS';
+export const SET_SCREAM = 'SET_SCREAM';
+export const SET_MORE_COMMENTS = 'SET_MORE_COMMENTS';
+export const LIKE_SCREAM = 'LIKE_SCREAM';
+export const UNLIKE_SCREAM = 'UNLIKE_SCREAM';
+export const DELETE_SCREAM = 'DELETE_SCREAM';
+export const POST_SCREAM = 'POST_SCREAM';
+export const SUBMIT_COMMENT = 'SUBMIT_COMMENT';
+export const SET_LOADED_ALL = 'SET_LOADED_ALL';
+export const SET_LOADED_ALL_COMMENTS = 'SET_LOADED_ALL_COMMENTS';

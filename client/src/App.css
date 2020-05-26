@@ -1,0 +1,26 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* background-color: rgb(245, 245, 245); */
+  background-color: #fcd145;
+}
+.container {
+  margin: 80px auto 0 auto;
+  max-width: 1200px;
+}
+
+.nav-container {
+  /*margin: auto;*/
+  /*margin-left: auto;*/
+  position: absolute;
+  right: 0;
+}
+.nav-container svg {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
